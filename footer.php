@@ -1,6 +1,6 @@
 <div class="mastfoot">
     <div class="inner">
-        <p>Cover template for <a href="https://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        <p>&copy;2015<script>new Date().getFullYear()>2016&&document.write("-"+new Date().getFullYear());</script> , Site designed by <a href="https://nitinakash.com">Nitin Akash</a>.</p>
     </div>
 </div>
 
