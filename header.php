@@ -28,7 +28,9 @@
                         <h3 class="masthead-brand">Nitin Akash</h3>
                         <nav class="nav nav-masthead">
                             <a class="nav-link active" href="#">Home</a>
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">My Story</a>
+                            <a class="nav-link" href="#">My Career</a>
+                            <a class="nav-link" href="#">Resume</a>
                             <a class="nav-link" href="#">Contact</a>
                         </nav>
                     </div>
