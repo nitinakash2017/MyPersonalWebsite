@@ -1,37 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <title>Nitin Akash</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Cover Template for Bootstrap</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stickey-footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="main.js"></script>
 
-    <!-- Custom styles for this template -->
-    <link href="css/cover.css" rel="stylesheet">
+
 </head>
-
 <body>
-    <div class="site-wrapper">
-
-        <div class="site-wrapper-inner">
-
-            <div class="cover-container">
-
-                <div class="masthead clearfix">
-                    <div class="inner">
-                        <h3 class="masthead-brand">Nitin Akash</h3>
-                        <nav class="nav nav-masthead">
-                            <a class="nav-link active" href="#">Home</a>
-                            <a class="nav-link" href="#">My Story</a>
-                            <a class="nav-link" href="#">My Career</a>
-                            <a class="nav-link" href="#">Resume</a>
-                            <a class="nav-link" href="#">Contact</a>
-                        </nav>
-                    </div>
+<div class="container-fluid" ng-controller="AppCtrl">
+    <header class="row">
+        <nav class="navbar navbar-inverse" id="mainNav">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    Nitin Akash
                 </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav  navbar-right">
+                        <li><a href="#/Home">Home</a></li>
+                        <li><a href="#/MyStory">My Story</a></li>
+
+                        <li><a href="#/Resume">Resume</a></li>
+                        <li><a href="#/MyCareer">My Career</a></li>
+                        <li><a href="#/ContactMe">Connect</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</div>

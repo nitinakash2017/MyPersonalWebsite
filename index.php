@@ -1,9 +1,9 @@
 <?php include 'header.php';
 ?>
-    <div class="container">
+    <div class="container" align="center">
             <div class="inner cover">
 
-                    <img src="image//Nitin.jpg" style="border-radius: 50%" width="150px" height="150px"/>
+                <img src="image//Nitin.jpg" style="border-radius: 50%" width="150px" height="150px"/>
                 <h1 class="cover-heading">Graduate Student at Saint Mary's University</h1>
                 <p>(Tentative Graduation Date: 31-Dec-2018)</p>
                 <p>Halifax, Nova Scotia, Cananda</p>

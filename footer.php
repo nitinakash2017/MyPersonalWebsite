@@ -1,14 +1,9 @@
-<div class="mastfoot">
-    <div class="inner">
-        <p>&copy;2015<script>new Date().getFullYear()>2016&&document.write("-"+new Date().getFullYear());</script> , Site designed by <a href="https://nitinakash.com">Nitin Akash</a>.</p>
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted">&copy;2015<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script> Nitin Akash, Site designed by <a href="https://nitinakash.com">Nitin Akash</a>.</span>
     </div>
-</div>
+</footer>
 
-</div>
-
-</div>
-
-</div>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
